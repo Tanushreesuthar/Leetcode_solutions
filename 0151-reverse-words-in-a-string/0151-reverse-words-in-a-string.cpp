@@ -10,15 +10,15 @@ public:
             {
                 i++;
             }
-            cout<<"i->"<<i<<endl;
+            // cout<<"i->"<<i<<endl;
             string temp="";
             while(i<n&&s[i]!=' ')
             {
                 temp+=s[i];
                 i++;
             }
-            cout<<"i->"<<i<<endl;
-            cout<<temp<<endl;
+            // cout<<"i->"<<i<<endl;
+            // cout<<temp<<endl;
             if(temp.size()>0)
             ans=temp+' '+ans;
         }
