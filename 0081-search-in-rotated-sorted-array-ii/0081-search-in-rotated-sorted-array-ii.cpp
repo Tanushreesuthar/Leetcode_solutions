@@ -15,7 +15,7 @@ public:
             {
                 s++;
                 e--;
-                continue;
+                // continue;
             }
             else if(nums[mid]>=nums[s])
             {
